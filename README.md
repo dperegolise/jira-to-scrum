@@ -14,11 +14,12 @@ We also assume you have open access to the web for node and git code.
 	1. node.js  https://nodejs.org/
 	
 	2. Once installed, install the following global node modules:
-		    npm install -g bower
-    		npm install -g gulp
-    		npm install -g karma
-    		npm install -g jasmine-node
-    		
+		```
+		npm install -g bower
+		npm install -g gulp
+		npm install -g karma
+		npm install -g jasmine-node
+    	```	
 	3. Now open a terminal at the project root.
 	
 			npm install
