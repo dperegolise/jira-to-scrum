@@ -25,7 +25,7 @@ We also assume you have open access to the web for node and git code.
 			
 			bower install
 			
-3. Now fill in the project details in **package.json** and **bower.json**.  The project ***name*** in package.json will be used to cache-bust the app, so it has to file system friendly.
+3. Now fill in the project details in **package.json** and **bower.json**.  The project ***name*** in package.json will be used to cache-bust the app, so it has to be file system friendly.
 
 
 ## What You Get
