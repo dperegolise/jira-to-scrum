@@ -1,0 +1,18 @@
+{
+  "name": "APP_NAME",
+  "version": "0.1.0",
+  "devDependencies": {
+    "bootstrap": "~3.x",
+    "font-awesome": "~4.x",
+    "angular": "~1.4.x",
+    "angular-ui-router": "~0.2.x",
+    "angular-animate": "~1.4.x",
+    "angular-mocks": "~1.4.x",
+    "angular-bootstrap": "~0.12.0",
+    "lodash": "~3.x",
+    "angular-messages": "~1.4.x",
+    "angular-local-storage": "~0.1.5",
+    "angular-touch": "~1.4.x",
+    "angular-moment": "~0.10.1"
+  }
+}

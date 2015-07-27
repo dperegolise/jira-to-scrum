@@ -1,0 +1,6 @@
+{
+    "directory": "vendor",
+    "strict-ssl": false,
+    "json": "bower.json"
+}
+

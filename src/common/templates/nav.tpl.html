@@ -1,0 +1,39 @@
+<nav class="navbar navbar-inverse  navbar-fixed-top hidden-print"
+     role="navigation">
+
+    <div class="navbar-header">
+
+        <button type="button" title="Click for Menu"
+                class="navbar-toggle"
+                ng-click="navi.isCollapsed = !navi.isCollapsed"
+                >
+
+            <span class="sr-only">Toggle navigation</span>
+
+            <span class="icon-bar" title="Click for Menu"></span>
+            <span class="icon-bar" title="Click for Menu"></span>
+            <span class="icon-bar" title="Click for Menu"></span>
+        </button>
+        <a class="navbar-brand" title="Home"
+           ui-sref="agile.home">
+            <i class="fa fa-beer"></i>
+            AgileThought
+        </a>
+    </div>
+    <div class=" navbar-collapse" collapse="navi.isCollapsed">
+
+        <ul class="nav navbar-nav">
+            <li>
+                <a ui-sref="agile.home" ui-sref-active="active">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a ui-sref="agile.featureA" ui-sref-active="active">
+                    FeatureA
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>

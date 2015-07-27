@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="agile" ng-controller="AgileController"  >
+<head>
+    <title>AgileThought</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Expires" CONTENT="-1">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="AgileThought Angular Template Project" />
+    <meta name="author" content="Mike Cooper, AgileThought LLC" />
+    <meta name="application-name" content="AgileThought Angular Template Project" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js" ></script>
+    <!-- inject:css -->
+    <!-- endinject -->
+
+</head>
+<body>
+<!--[if lt IE 11]>
+<h1>This app requires a minimum of Internet Explorer 11</h1>
+<![endif] -->
+<div ui-view="nav" autoscroll='false'></div>
+<div class="container">
+    <div class="mainView"
+         ui-view="content"></div>
+
+</div>
+<iframe name="iDownload" style="display: none"></iframe>
+<% files.forEach( function ( file ) { %>
+<script type="text/javascript" src="<%= file %>"></script>
+<% }); %>
+<!-- inject:js -->
+<!-- endinject -->
+</body>
+</html>
