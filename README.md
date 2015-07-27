@@ -68,17 +68,45 @@ fixturefeatureAfeatureA
 as a value object.  You can then reference the injected item as the original JSON object. 
 
 ### Karma
+Leave this folder alone.  It is configuration to run unit tests and unit test coverage.
 
 ### Server
+Leave this folder alone until you're comfortable with node and node Express.
+It provides a static web server on port 3444.   This is configurable in /server/config.js.
+
+It allows us to control the behavior of GET and POST (not set up yet for PUT, etc).
+
 
 ### Src
+Source code for the app.
 
 ### Vendor
+Vendor libraries that have the option of being included in the build.
+This is completely managed by **bower**, and should not normally be checked into source control.
 
 ### Other files @ root
+	
+- .bowercc - bower settings
+- .gitignore
+- .jscsrc - JSCS settings.  We use a very slightly modified Google standard for style.  Each IDE will have a set-up that will allow code to comply with the JSCS settings.
+- .jshintrc
+- bower.json - external libraries that we will load into **vendor** directory
+- gulpfile.js - our Gulp tasks.
+- package.json - needed by our build tasks for anti-caching and app name.  Set those up.   It also identifies all the node modules we use in our Gulp work flow.
+- README.md - this file
+- TODO.md - picks up todo, hacks keywords in code.
 
 ## Source File Organization
+This project uses a **modified feature** organization.  Features (usually corresponding to major UI views or portions) are organized by folder.  Within the folder, we expect 1 module that lists all dependencies.  This trick means we have to ensure *.module.js* files are built before files that share the same module name.
+
+We have a common folder for shared elements that might be used in many features: domain models, services, filters, common directives, etc.
+
+We follow the style guide at [https://github.com/agilethought/angularjs-styleguide](https://github.com/agilethought/angularjs-styleguide)
+
+We're always looking to learn from past projects, so issue a pull request!
+
 
 ## Gulp Tasks
+The engine that automates the 
 
 ## Testing
