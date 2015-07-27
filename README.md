@@ -26,8 +26,13 @@ We also assume you have open access to the web for node and git code.
 
 	bower install
 	```
+3. Now you can test the project by typing gulp at a command prompt.
+```
+gulp
+``` 
+Open your browser and point at http://localhost:3444   Your app will appear!
 			
-3. Now fill in the project details in **package.json** and **bower.json**.  The project ***name*** in package.json will be used to cache-bust the app, so it has to be file system friendly.
+4. Now fill in the project details in **package.json** and **bower.json**.  The project ***name*** in package.json will be used to cache-bust the app, so it has to be file system friendly.
 
 
 ## What You Get
@@ -107,6 +112,7 @@ We're always looking to learn from past projects, so issue a pull request!
 
 
 ## Gulp Tasks
-The engine that automates the 
+The engine that automates the developer workflow is a fluid set of tasks found in the gulpfile.js.
 
 ## Testing
+We love tests, don't we?
