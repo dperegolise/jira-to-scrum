@@ -140,6 +140,9 @@ I can't guarantee this is fully functioning, but its supposed to produce a code 
 ### gulp build-dev
 This builds a deploy-able version of the application, dropping the package in /dev.  It uses the "dev" ngConstants to build in an API base route, and creates the files with a version number to ensure cache is busted.  All code is concatenated, annotated, wrapped in IIFE, and then minified and uglifed.  Debug and compile information is typically turned off.
 
+### gulp bump
+This bumps the version number (in your bower.json and package.json files).  Do this before each deploy so the version is baked into the deployment, and forces cache-busting for css and js files.
+
 You might want to add a task for other target deployments.
 
 ## Testing
