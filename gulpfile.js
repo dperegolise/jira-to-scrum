@@ -114,13 +114,17 @@ gulp.task('style', function() {
  * create injectable test fixtures
  * converts json files to test modules
  */
-gulp.task('fixtures', function(){
+gulp.task('fixtures', function() {
   return gulp.src('fixtures/**/*.json')
     .pipe(json2Js({
       moduleName: 'agile.fixtures',
-      prefix: 'fixture.'
+      prefix: 'fixture.',
+      rename: function(url) {
+        return url.replace(/\//g, '').replace(/\./g, '')
+          .replace('json', '')
+      }
     }))
-    .pipe(concat('fixtures.js'))
+    //.pipe(concat('fixtures.js'))
     .pipe(gulp.dest('fixtures'));
 });
 
@@ -359,7 +363,7 @@ gulp.task(
  Copy fav icon
  */
 gulp.task(
-  'copyIcon', function(cb){
+  'copyIcon', function(cb) {
     gulp.src(userConfig.icon)
       .pipe(gulp.dest(userConfig.build_dir));
     cb();
@@ -531,10 +535,10 @@ gulp.task('serverExpress', function() {
     ['server/gulpExpress.js']
   );
 
-  var debounceServer = function(){
-    throttle(function(){
+  var debounceServer = function() {
+    throttle(function() {
       server.notify();
-    },2000)
+    }, 2000)
   };
 
   // Restart the server when file changes
@@ -751,13 +755,13 @@ gulp.task(
   'watch-mode', function(cb) {
     mode = WATCH_MODE;
 
-    var jsWatcher = gulp.watch(
+    var jsWatcher         = gulp.watch(
           ['src/**/*.js'],
           ['buildJs-app', 'karma', 'lint']
         ),
-        lessWatcher = gulp.watch('src/less/**/*.less', ['lessCss']),
+        lessWatcher       = gulp.watch('src/less/**/*.less', ['lessCss']),
 
-        htmlAppWatcher = gulp.watch(
+        htmlAppWatcher    = gulp.watch(
           'src/app/**/*.tpl.html',
           ['html2js-app']
         ),

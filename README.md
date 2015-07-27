@@ -14,17 +14,18 @@ We also assume you have open access to the web for node and git code.
 	1. node.js  https://nodejs.org/
 	
 	2. Once installed, install the following global node modules:
-		```
-		npm install -g bower
-		npm install -g gulp
-		npm install -g karma
-		npm install -g jasmine-node
-    	```	
+	``` 
+	npm install -g bower
+	npm install -g gulp
+	npm install -g karma
+	npm install -g jasmine-node
+	```	
 	3. Now open a terminal at the project root.
-	
-			npm install
-			
-			bower install
+	```
+	npm install
+
+	bower install
+	```
 			
 3. Now fill in the project details in **package.json** and **bower.json**.  The project ***name*** in package.json will be used to cache-bust the app, so it has to be file system friendly.
 
@@ -46,9 +47,25 @@ Check out he readme.md file there.
 
 ### E2E: End to end tests
 
-We'd house our protractor tests here.  See https://github.com/mbcooper/ProtractorExample
+We'd house our protractor tests here.  See [https://github.com/mbcooper/ProtractorExample](https://github.com/mbcooper/ProtractorExample)
 
 ### Fixtures: Angular mock data modules for unit tests
+
+Since we're dealing primarily with API endpoints that could constantly be changing, we want a flexible way of managing test data for our Karma unit tests.  Drop JSON files and directories of JSON samples into this folder, and then run the gulp task:
+```
+gulp fixtures
+```
+This will create a .js file alongside the .json file that can be referenced in unit tests.  This way, we get re-use and, as objects and data evolves, we just drop in new JSON, run the task and our tests can be re-run with the updated fixtures.
+
+To use the fixture in a test:
+```javascript
+	beforeEach(module('agile.fixtures'));
+```
+ ... and then inject (in the sample case of /featureA/featureA.json): 
+```
+fixturefeatureAfeatureA
+```
+as a value object.  You can then reference the injected item as the original JSON object. 
 
 ### Karma
 
@@ -60,7 +77,8 @@ We'd house our protractor tests here.  See https://github.com/mbcooper/Protracto
 
 ### Other files @ root
 
-
 ## Source File Organization
 
 ## Gulp Tasks
+
+## Testing
