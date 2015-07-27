@@ -48,7 +48,7 @@ It is reasonably documented.  **Vendor libraries are explicitly added here**.  T
 
 ### Data: Mock Data for the back-end REST endpoints
 
-Check out he readme.md file there.
+Check out he [readme.md](https://github.com/agilethought/AngularProjectTemplate/tree/master/data) file there.
 
 ### E2E: End to end tests
 
@@ -70,7 +70,7 @@ To use the fixture in a test:
 ```
 fixturefeatureAfeatureA
 ```
-as a value object.  You can then reference the injected item as the original JSON object. 
+as a value object.  (OK - so the names are sort of funky.  They are created from the directory structure and need to be proper JavaScript variables.)  You can then reference the injected item as the original JSON object. 
 
 ### Karma
 Leave this folder alone.  It is configuration to run unit tests and unit test coverage.
@@ -113,6 +113,37 @@ We're always looking to learn from past projects, so issue a pull request!
 
 ## Gulp Tasks
 The engine that automates the developer workflow is a fluid set of tasks found in the gulpfile.js.
+Once you're comfortable with node and gulp, you can add to the stack.
+
+Here are a few notable tasks:
+### gulp (default)
+This is the task you should run while you are writing code.  This task
+- injects an environment constant,
+- converts all templates to .js,
+- converts LESS (or SASS) to CSS, 
+- organizes all files,
+- builds the index.html file (cloning the directory structure, so debugging is easy in the browser), 
+- does style checking and linting, 
+- sets up an Express server in node to serve up your site, and mock api calls (if desired),
+- and sets **a watch** on any changes to .js, .less or .html files.
+
+When **a watch** is triggered, appropriate parts of the application are re-built (from the list above), and the Express server is told to do a live-reload (with debouncing).  Live reload is fantastic, as changes to styles instantly appear, and changes to markup get an auto-refresh.
+
+Whew!  That's a ton of automation!!!
+
+### gulp fixtures
+This is the short task that converts JSON files into .js fixtures for testing.
+
+### gulp karma-coverage
+I can't guarantee this is fully functioning, but its supposed to produce a code coverage report for unit tests.
+
+### gulp build-dev
+This builds a deploy-able version of the application, dropping the package in /dev.  It uses the "dev" ngConstants to build in an API base route, and creates the files with a version number to ensure cache is busted.  All code is concatenated, annotated, wrapped in IIFE, and then minified and uglifed.  Debug and compile information is typically turned off.
+
+You might want to add a task for other target deployments.
 
 ## Testing
-We love tests, don't we?
+We love tests, don't we?  We like to have unit tests covering near 100% of all models in the app.
+You can find patterns and practices for writing tests in the [Yammer Angular Patterns and Practices](https://www.yammer.com/agilethought.com/#/threads/inGroup?type=in_group&feedId=4015918).
+
+Place test files in the same folder as the file you are testing, and call it the same, except with a **.spec.js** suffix.  The build process will remove .spec files from the list of files that get run by Express.
