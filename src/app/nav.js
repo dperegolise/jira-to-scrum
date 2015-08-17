@@ -11,7 +11,7 @@ angular.module('agile.nav', [
  * settings and admin stuff
  * @constructor
  */
-function NavController( $rootScope) {
+function NavController($rootScope) {
   'use strict';
   this.isCollapsed = true;
   var vm = this;

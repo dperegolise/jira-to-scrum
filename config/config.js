@@ -1,8 +1,23 @@
 /**
- * Created by mike on 12/8/2014.
+ * Created by bob on 8/9/2015.
  */
 /* jscs:disable requireCamelCaseOrUpperCaseIdentifiers */
+var pkg = require('../package.json');
+var now = new Date();
+var banner = '/**\n' +
+	' * ' + pkg.name + ' - v' + pkg.version + ' - ' + now.toString() +
+	' *\n' +
+	' * ' + pkg.description + '\n' +
+	' * ' + pkg.homepage + '\n' +
+	' *\n' +
+	' * Copyright (c) ' + now.getFullYear() + '  '
+	+ pkg.author + '\n' +
+	' */\n';
+
 module.exports = {
+   /**
+   * build
+   */
   build_dir: 'build',
   dev_dir: 'dev',
   path_dir: 'src/common/config',
@@ -91,6 +106,70 @@ module.exports = {
       'vendor/angular-ui-grid/ui-grid.ttf',
       'vendor/angular-ui-grid/ui-grid.woff'
     ]
-  }
+  },
 
+  /**
+   * sets up constants for different build environments.
+   *
+   */
+  working: {
+    "ENVIRONMENT": {
+      "ENV": "working",
+      "API_PATH": "http://localhost:40364/", // local external endpoint
+      "VERSION": 'v ' + pkg.version
+    }
+  },
+  dev: {
+    "ENVIRONMENT": {
+      "ENV": "prod",
+      API_PATH: "production url",
+      "VERSION": 'v ' + pkg.version
+    }
+  },
+
+  /**
+   * options
+   */
+  lintOptions: {
+		curly: true,
+		immed: true,
+		newcap: true,
+		noarg: true,
+		sub: true,
+		boss: true,
+		eqnull: true,
+		force: true
+	},
+
+	htmlMinOptions: {
+		collapseBooleanAttributes: false,
+		collapseWhitespace: true,
+		conservativeCollapse: true,
+		removeAttributeQuotes: false,
+		removeComments: true,
+		removeEmptyAttributes: false,
+		removeRedundantAttributes: false,
+		removeScriptTypeAttributes: false,
+		removeStyleLinkTypeAttributes: false,
+		caseSensitive: true
+	},
+
+	uglyOptions: {
+      output: {
+        preamble: banner
+      },
+      mangle: true,
+      stats: true,
+      compress: false
+   },
+
+   uglyVendorOptions: {
+      mangle: false,
+      stats: true,
+      compress: false
+   },
+
+   jsTarget: pkg.name + '-' + pkg.version + '.js',
+
+   jsVendorTarget: pkg.name + '.vendor.js'
 };

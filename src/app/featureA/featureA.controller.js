@@ -20,7 +20,7 @@ angular.module('agile.featureA')
 );
 
 function featureAController(FeatureA, featureAService) {
-  'use strict';
+  //'use strict';
   this.model = new FeatureA();
   this.message = '';
   var vm = this;

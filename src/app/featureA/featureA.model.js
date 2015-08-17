@@ -19,7 +19,7 @@ angular.module('agile.featureA')
 
     /**
      * @method fromDTO - convert dto object to view model
-     * @param dto
+     * @param {object} dto
      */
     FeatureA.prototype.fromDTO = function(dto) {
       var vm = this;
