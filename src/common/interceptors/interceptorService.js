@@ -12,7 +12,7 @@ angular.module(
 
   .factory(
   'interceptorService',
-  function( $location, $q, $window, $log) {
+  function($location, $q, $window, $log) {
     'use strict';
 
     /**
@@ -53,17 +53,9 @@ angular.module(
       if (config.method === 'GET' && !config.cache) {
         config.url = cacheBuster(config.url);
       }
-
-
-
       return config;
     };
-
-
-    return {
-      request: _request,
-
-    };
+    return {request: _request};
   }
 )
   .config(function($httpProvider) {

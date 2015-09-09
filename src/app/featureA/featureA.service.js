@@ -8,7 +8,7 @@ angular.module('agile.featureA')
 function featureAService() {
 
   return {
-    get: function(){
+    get: function() {
       return 'service message';
     }
   };
