@@ -18,9 +18,10 @@ angular.module('agile.home')
   }
 );
 
-function HomeController() {
+function HomeController(UserService) {
   'use strict';
 
+  var user = null;
   var vm = this;
 
   activate();
@@ -29,6 +30,8 @@ function HomeController() {
    * fetches intervals
    */
   function activate() {
-
+    UserService.getUser("daniel.peregolise").then(function(user) {
+      vm.user = user;
+    });
   }
 }

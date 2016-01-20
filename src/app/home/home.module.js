@@ -4,5 +4,9 @@
  */
 angular.module('agile.home', [
   'agile.config',
-  'agile.config.path'
+  'agile.config.path',
+
+  'agile.models.user',
+
+  'agile.services.user'
 ]);

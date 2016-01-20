@@ -14,8 +14,7 @@ angular.module(
     'agile.config',
     'agile.config.path',
     'agile.nav',
-    'agile.home',
-    'agile.featureA'
+    'agile.home'
   ]
 )
   .config(
