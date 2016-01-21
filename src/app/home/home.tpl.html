@@ -7,12 +7,14 @@
     </p>
     <p>
         <h4>Query: {{home.query}}</h4>
-        <div ng-repeat="issue in home.issueList">
+        <div ng-repeat="issue in home.issueList" class="issue">
             <img src = "{{issue.icon}}">
-            <a href="https://focustech.atlassian.net/browse/{{issue.key}}">{{issue.key}}</a> |
-            {{issue.summary}} |
+            <a href="https://focustech.atlassian.net/browse/{{issue.key}}">{{issue.key}}</a>
+            {{issue.summary}}
+            <div style="float: right">
             {{issue.assignee.displayName}} |
             {{issue.timeEstimate}}
+            </div>
         </div>
     </p>
 </div>

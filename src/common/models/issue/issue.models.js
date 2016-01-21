@@ -15,11 +15,13 @@ angular.module('agile.models.issue', [
     var Issue = function(issue) {
       this.self = issue.self;
       this.key = issue.key;
-      this.timeEstimate = issue.fields.timeestimate;
+      this.timeEstimate = (issue.fields.customfield_12106 === null) ? "N/A" :
+        issue.fields.customfield_12106;
       this.description = issue.fields.description;
       this.summary = issue.fields.summary;
       this.assignee =
-        (issue.fields.assignee === null) ? new User({displayName:"Not assigned"}) :
+        (issue.fields.assignee === null) ?
+          new User({displayName: "Not assigned"}) :
           new User(issue.fields.assignee);
       this.icon = issue.fields.issuetype.iconUrl;
     };
