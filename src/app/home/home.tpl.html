@@ -1,5 +1,18 @@
 <div id="home" class="row">
-    <h4>Home Page</h4>
+    <h2>JIRA Scrum board</h2>
 
-    <p>{{home.user.name}}</p>
+    <p>
+        <input ng-model="home.query" size="120">
+        <button ng-click="home.doQuery()">Query</button>
+    </p>
+    <p>
+        <h4>Query: {{home.query}}</h4>
+        <div ng-repeat="issue in home.issueList">
+            <img src = "{{issue.icon}}">
+            <a href="https://focustech.atlassian.net/browse/{{issue.key}}">{{issue.key}}</a> |
+            {{issue.summary}} |
+            {{issue.assignee.displayName}} |
+            {{issue.timeEstimate}}
+        </div>
+    </p>
 </div>

@@ -1,30 +1,25 @@
 /**
  * Created 12/11/2015.
  * Copyright 2015 Focus Technologies
- * user.service
+ * issue.service
  */
-angular.module('agile.services.user', [
+angular.module('agile.services.issue', [
   'agile.models.apiError',
-  'agile.models.user'
+  'agile.models.issue'
 ])
-  .service('UserService', function($q, $http, User, ApiError) {
+  .service('IssueService', function($q, $http, Issue, ApiError) {
     'use strict';
 
     /**
-     * @class userService
+     * @class issueService
      *
      **/
 
-    /**
-     *
-     * @param userName
-     * @returns {*|jQuery.promise|Function|promise.promise|deferred.promise|{then,
-     *   catch, finally}}
-     */
-    var getUser = function(userName) {
+
+    var getIssueList = function(query) {
       var defer = $q.defer();
 
-      var url = "https://focustech.atlassian.net/rest/api/2/user?username=" + userName;
+      var url = "https://focustech.atlassian.net/rest/api/2/search?jql=" + query;
 
       var req = {
         method: 'GET',
@@ -34,7 +29,11 @@ angular.module('agile.services.user', [
 
       $http(req).then(
         function(response) {
-          defer.resolve(new User(response.data));
+          var issueList = [];
+          _.each(response.data.issues, function(issue) {
+            issueList.push(new Issue(issue));
+          });
+          defer.resolve(issueList);
         },
         // error
         function(data, status, headers, config) {
@@ -47,6 +46,6 @@ angular.module('agile.services.user', [
 
 
     return {
-      getUser: getUser
+      getIssueList: getIssueList
     };
   });

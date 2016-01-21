@@ -7,6 +7,8 @@ angular.module('agile.home', [
   'agile.config.path',
 
   'agile.models.user',
+  'agile.models.issue',
 
-  'agile.services.user'
+  'agile.services.user',
+  'agile.services.issue'
 ]);

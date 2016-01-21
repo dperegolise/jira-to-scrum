@@ -18,10 +18,12 @@ angular.module('agile.home')
   }
 );
 
-function HomeController(UserService) {
+function HomeController(UserService, IssueService) {
   'use strict';
 
   var user = null;
+  var query = "";
+  var issueList = [];
   var vm = this;
 
   activate();
@@ -30,8 +32,16 @@ function HomeController(UserService) {
    * fetches intervals
    */
   function activate() {
-    UserService.getUser("daniel.peregolise").then(function(user) {
-      vm.user = user;
-    });
+    vm.query = "labels=Farmowners and labels=Delta";
   }
+
+  vm.doQuery = function() {
+    IssueService.getIssueList(replaceAll(vm.query, " ", "+")).then(function(list) {
+      vm.issueList = list;
+    });
+  };
+
+  var replaceAll = function(string, target, replacement) {
+    return string.split(target).join(replacement);
+  };
 }
