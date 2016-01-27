@@ -1,6 +1,6 @@
 /**
  * Created 8/4/2015.
- * Copyright 2015 Focus Technologies
+ *
  * apiError.models
  */
 angular.module('agile.models.apiError', [])

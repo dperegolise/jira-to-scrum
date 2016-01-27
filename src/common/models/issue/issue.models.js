@@ -24,7 +24,22 @@ angular.module('agile.models.issue', [
           new User({displayName: "Not assigned"}) :
           new User(issue.fields.assignee);
       this.icon = issue.fields.issuetype.iconUrl;
+      this.type = issue.fields.issuetype.id
+      this.children = [];
+      this.parentKey =
+        (issue.fields.parent != null) ? issue.fields.parent.key : null;
+      this.epicKey = issue.fields["customfield_10008"];
+      this.flagged = false;
     };
+
+    /**
+     * Adds a child issue to this issue's children array.
+     * @param {Issue} child
+     */
+    Issue.prototype.addChild = function(child) {
+      var vm = this;
+      vm.children.push(child);
+    }
 
     return Issue;
   });

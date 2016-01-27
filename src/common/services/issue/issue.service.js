@@ -1,13 +1,21 @@
 /**
  * Created 12/11/2015.
- * Copyright 2015 Focus Technologies
+ *
  * issue.service
  */
 angular.module('agile.services.issue', [
+  'agile.config.path',
   'agile.models.apiError',
   'agile.models.issue'
 ])
-  .service('IssueService', function($q, $http, Issue, ApiError) {
+  .constant("issueTypes", {
+    "test": "11200",
+    "story": "7",
+    "technicalTask": "8",
+    "epic": "6"
+  })
+  .service('IssueService',
+  function($q, $http, Issue, ApiError, issueTypes, ENVIRONMENT) {
     'use strict';
 
     /**
@@ -15,11 +23,16 @@ angular.module('agile.services.issue', [
      *
      **/
 
-
+    /**
+     *
+     * @param {String} query
+     * @returns {Array} An array of Issues
+     */
     var getIssueList = function(query) {
       var defer = $q.defer();
 
-      var url = "https://focustech.atlassian.net/rest/api/2/search?jql=" + query;
+      var url = ENVIRONMENT.API_PATH + "search?jql=" + query +
+        "&maxResults=100";
 
       var req = {
         method: 'GET',
@@ -31,9 +44,13 @@ angular.module('agile.services.issue', [
         function(response) {
           var issueList = [];
           _.each(response.data.issues, function(issue) {
-            issueList.push(new Issue(issue));
+            var issue = new Issue(issue);
+            if (issue.type != issueTypes.test) {
+              issueList.push(issue);
+            }
           });
-          defer.resolve(issueList);
+          var orderedList = orderList(issueList);
+          defer.resolve(orderedList);
         },
         // error
         function(data, status, headers, config) {
@@ -44,6 +61,55 @@ angular.module('agile.services.issue', [
       return defer.promise;
     };
 
+    /**
+     *
+     * @param {Array} issueList
+     * @returns {Array} An array of issue objects, which themselves may contain
+     * children issues
+     */
+    var orderList = function(issueList) {
+      var epics = issueList.filter(function(e) {
+        return e.type == issueTypes.epic;
+      });
+      var stories = issueList.filter(function(e) {
+        return e.type == issueTypes.story;
+      });
+      var tasks = issueList.filter(function(e) {
+        return e.type == issueTypes.technicalTask;
+      });
+
+      _.each(tasks, function(task, key) {
+        var parentStories = stories.filter(function(e) {
+          return e.key == task.parentKey;
+        });
+        if (parentStories.length > 0) {
+          parentStories[0].addChild(task);
+          task.flagged = true;
+        }
+      });
+
+      _.each(stories, function(story, key) {
+        var parentEpics = epics.filter(function(e) {
+          return e.key == story.epicKey;
+        });
+        if (parentEpics.length > 0) {
+          parentEpics[0].addChild(story);
+          story.flagged = true;
+        }
+      });
+
+      tasks = tasks.filter(function(e) {
+        return e.flagged == false;
+      });
+
+      stories = stories.filter(function(e) {
+        return e.flagged == false;
+      });
+
+      var orderedList = epics.concat(stories).concat(tasks);
+
+      return orderedList;
+    }
 
     return {
       getIssueList: getIssueList

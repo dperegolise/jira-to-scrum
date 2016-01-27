@@ -1,4 +1,4 @@
-<div id="home" class="row">
+<accordion id="home" class="row">
     <h2>JIRA Scrum board</h2>
 
     <p>
@@ -7,14 +7,42 @@
     </p>
     <p>
         <h4>Query: {{home.query}}</h4>
-        <div ng-repeat="issue in home.issueList" class="issue">
-            <img src = "{{issue.icon}}">
-            <a href="https://focustech.atlassian.net/browse/{{issue.key}}">{{issue.key}}</a>
-            {{issue.summary}}
-            <div style="float: right">
-            {{issue.assignee.displayName}} |
-            {{issue.timeEstimate}}
-            </div>
-        </div>
+        <accordion close-others="false">
+            <accordion-group ng-repeat="issue in home.issueList" class="accordion-group">
+                <accordion-heading>
+                    <img src = "{{issue.icon}}">
+                    <a href="https://focustech.atlassian.net/browse/{{issue.key}}">{{issue.key}}</a>
+                    {{issue.summary}}
+                    <div style="float: right">
+                    {{issue.assignee.displayName}} |
+                    {{issue.timeEstimate}}
+                    </div>
+                </accordion-heading>
+                <div>
+                    <accordion close-others="false" is-open="true">
+                        <accordion-group ng-repeat="story in issue.children" class="issue">
+                            <accordion-heading>
+                                <img src = "{{story.icon}}">
+                                <a href="https://focustech.atlassian.net/browse/{{story.key}}">{{story.key}}</a>
+                                {{story.summary}}
+                                <div style="float: right">
+                                    {{story.assignee.displayName}} |
+                                    {{story.timeEstimate}}
+                                </div>
+                            </accordion-heading>
+                            <div ng-repeat="task in story.children" class="issue">
+                                <img src = "{{task.icon}}">
+                                <a href="https://focustech.atlassian.net/browse/{{task.key}}">{{task.key}}</a>
+                                {{task.summary}}
+                                <div style="float: right">
+                                    {{task.assignee.displayName}} |
+                                    {{task.timeEstimate}}
+                                </div>
+                            </div>
+                        </accordion-group>
+                    </accordion>
+                </div>
+            </accordion-group>
+        </accordion>
     </p>
 </div>

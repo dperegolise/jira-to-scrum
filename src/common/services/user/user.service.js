@@ -1,13 +1,14 @@
 /**
  * Created 12/11/2015.
- * Copyright 2015 Focus Technologies
+ *
  * user.service
  */
 angular.module('agile.services.user', [
+  'agile.config.path',
   'agile.models.apiError',
   'agile.models.user'
 ])
-  .service('UserService', function($q, $http, User, ApiError) {
+  .service('UserService', function($q, $http, User, ApiError, ENVIRONMENT) {
     'use strict';
 
     /**
@@ -17,14 +18,13 @@ angular.module('agile.services.user', [
 
     /**
      *
-     * @param userName
-     * @returns {*|jQuery.promise|Function|promise.promise|deferred.promise|{then,
-     *   catch, finally}}
+     * @param {String} userName
+     * @returns {User}
      */
     var getUser = function(userName) {
       var defer = $q.defer();
 
-      var url = "https://focustech.atlassian.net/rest/api/2/user?username=" + userName;
+      var url = ENVIRONMENT.API_PATH + "user?username=" + userName;
 
       var req = {
         method: 'GET',
@@ -44,7 +44,6 @@ angular.module('agile.services.user', [
 
       return defer.promise;
     };
-
 
     return {
       getUser: getUser
