@@ -1,0 +1,3331 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 100,
+  "total": 58,
+  "issues": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "48986",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/48986",
+      "key": "SDLC-7965",
+      "fields": {
+        "summary": "SDLC-6636 - Implement Exposure Management Rules in Carrier Admin",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/11200",
+          "id": "11200",
+          "description": "This Issue Type is used to create zephyr Test within Jira.",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=15401&avatarType=issuetype",
+          "name": "Test",
+          "subtask": false,
+          "avatarId": 15401
+        },
+        "customfield_10008": "SDLC-4938",
+        "description": "SDLC-6636 - Implement In Carrier Admin Exposure Management Rules - Test Cases \r\nhttps://focustech.atlassian.net/browse/SDLC-6636",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=richard.perry",
+          "name": "richard.perry",
+          "key": "richard.perry",
+          "emailAddress": "richard.perry@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=48",
+            "24x24": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=24",
+            "16x16": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=16",
+            "32x32": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=32"
+          },
+          "displayName": "Richard Perry",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "48975",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/48975",
+      "key": "SDLC-7959",
+      "fields": {
+        "summary": "SDLC-6616 -Implement Coverages Tab for Farmowners - Validation Rules",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/11200",
+          "id": "11200",
+          "description": "This Issue Type is used to create zephyr Test within Jira.",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=15401&avatarType=issuetype",
+          "name": "Test",
+          "subtask": false,
+          "avatarId": 15401
+        },
+        "customfield_10008": "SDLC-4704",
+        "description": "SDLC-6616 -Implement Coverages Tab for Farmowners - Validation Rules - Test Cases - https://focustech.atlassian.net/browse/SDLC-6616",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=richard.perry",
+          "name": "richard.perry",
+          "key": "richard.perry",
+          "emailAddress": "richard.perry@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=48",
+            "24x24": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=24",
+            "16x16": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=16",
+            "32x32": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=32"
+          },
+          "displayName": "Richard Perry",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "48971",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/48971",
+      "key": "SDLC-7957",
+      "fields": {
+        "summary": "SDLC-6951 -\tImplement Location Farm Business Subtab for Farmowners - Validation Rules",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/11200",
+          "id": "11200",
+          "description": "This Issue Type is used to create zephyr Test within Jira.",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=15401&avatarType=issuetype",
+          "name": "Test",
+          "subtask": false,
+          "avatarId": 15401
+        },
+        "customfield_10008": "SDLC-6947",
+        "description": "SDLC-6951\tImplement Location Farm Business Subtab for Farmowners - Validation Rules - Test Cases - https://focustech.atlassian.net/browse/SDLC-6951",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=richard.perry",
+          "name": "richard.perry",
+          "key": "richard.perry",
+          "emailAddress": "richard.perry@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=48",
+            "24x24": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=24",
+            "16x16": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=16",
+            "32x32": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=32"
+          },
+          "displayName": "Richard Perry",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "48966",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/48966",
+      "key": "SDLC-7956",
+      "fields": {
+        "summary": "SDLC-6950 - Implement Location Farm Business Subtab for Farmowners - Persistance",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/11200",
+          "id": "11200",
+          "description": "This Issue Type is used to create zephyr Test within Jira.",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=15401&avatarType=issuetype",
+          "name": "Test",
+          "subtask": false,
+          "avatarId": 15401
+        },
+        "customfield_10008": "SDLC-6947",
+        "description": "SDLC-6950 - Implement Location Farm Business Subtab for Farmowners - Persistance - Test Cases ",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=richard.perry",
+          "name": "richard.perry",
+          "key": "richard.perry",
+          "emailAddress": "richard.perry@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=48",
+            "24x24": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=24",
+            "16x16": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=16",
+            "32x32": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=32"
+          },
+          "displayName": "Richard Perry",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "48960",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/48960",
+      "key": "SDLC-7951",
+      "fields": {
+        "summary": "SDLC-6629 - Optional Coverage Subtab - Validations",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/11200",
+          "id": "11200",
+          "description": "This Issue Type is used to create zephyr Test within Jira.",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=15401&avatarType=issuetype",
+          "name": "Test",
+          "subtask": false,
+          "avatarId": 15401
+        },
+        "customfield_10008": "SDLC-6625",
+        "description": "Optional Coverage Subtab - Validationshttps Test Cases",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=richard.perry",
+          "name": "richard.perry",
+          "key": "richard.perry",
+          "emailAddress": "richard.perry@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=48",
+            "24x24": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=24",
+            "16x16": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=16",
+            "32x32": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=32"
+          },
+          "displayName": "Richard Perry",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "48938",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/48938",
+      "key": "SDLC-7936",
+      "fields": {
+        "summary": "SDLC-7513 - Optional tab to include 3 additional fields - Persistence",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/11200",
+          "id": "11200",
+          "description": "This Issue Type is used to create zephyr Test within Jira.",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=15401&avatarType=issuetype",
+          "name": "Test",
+          "subtask": false,
+          "avatarId": 15401
+        },
+        "customfield_10008": "SDLC-6625",
+        "description": "Update Coverages - Optional tab to include 3 additional fields - Persistence - Test Cases",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=richard.perry",
+          "name": "richard.perry",
+          "key": "richard.perry",
+          "emailAddress": "richard.perry@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=48",
+            "24x24": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=24",
+            "16x16": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=16",
+            "32x32": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=32"
+          },
+          "displayName": "Richard Perry",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "48935",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/48935",
+      "key": "SDLC-7933",
+      "fields": {
+        "summary": "SDLC-7226 - Extra Optional Fields",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/11200",
+          "id": "11200",
+          "description": "This Issue Type is used to create zephyr Test within Jira.",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=15401&avatarType=issuetype",
+          "name": "Test",
+          "subtask": false,
+          "avatarId": 15401
+        },
+        "customfield_10008": "SDLC-6625",
+        "description": "SDLC-7226 - Extra Optional Fields - Test Cases",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=richard.perry",
+          "name": "richard.perry",
+          "key": "richard.perry",
+          "emailAddress": "richard.perry@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=48",
+            "24x24": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=24",
+            "16x16": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=16",
+            "32x32": "https://secure.gravatar.com/avatar/312e890e1e5d1920293bce78aae4727e?d=mm&s=32"
+          },
+          "displayName": "Richard Perry",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "48015",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/48015",
+      "key": "SDLC-7585",
+      "fields": {
+        "summary": "Integration Test",
+        "customfield_12106": 3.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "47503",
+          "key": "SDLC-7322",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/47503",
+          "fields": {
+            "summary": "UI Adjustments for new proxy",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Sync with new Back end",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47896",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47896",
+      "key": "SDLC-7533",
+      "fields": {
+        "summary": "Research & Development",
+        "customfield_12106": 14.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "45672",
+          "key": "SDLC-6636",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/45672",
+          "fields": {
+            "summary": "Implement Exposure Management Rules in Carrier Admin",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10746",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "BA Done",
+              "id": "10746",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Find ruby rules file for exposure mgmt and implement a base layer of conditional logic for each of the three constraints (zip, territory, and county).\r\n\r\nAssist in deployment of Carrier Admin to buildb, and ensure that BAs can update the ruby rules via CA application",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47895",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47895",
+      "key": "SDLC-7532",
+      "fields": {
+        "summary": "Implement Validation rules as per spreadsheet",
+        "customfield_12106": 10.5,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "46427",
+          "key": "SDLC-6951",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/46427",
+          "fields": {
+            "summary": "Implement Location Farm Business Subtab for Farmowners - Validation Rules",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10746",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "BA Done",
+              "id": "10746",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/major.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Implement Ruby Validation rules as per spreadsheet",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47894",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47894",
+      "key": "SDLC-7531",
+      "fields": {
+        "summary": "Service implementation",
+        "customfield_12106": 5.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "46425",
+          "key": "SDLC-6950",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/46425",
+          "fields": {
+            "summary": "Implement Location Farm Business Subtab for Farmowners - Persistance",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/major.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Service implementation for rest DTOs",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "5h",
+          "timeSpent": "15m",
+          "remainingEstimateSeconds": 18000,
+          "timeSpentSeconds": 900
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47893",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47893",
+      "key": "SDLC-7530",
+      "fields": {
+        "summary": "Persistence implementation",
+        "customfield_12106": 5.5,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "46425",
+          "key": "SDLC-6950",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/46425",
+          "fields": {
+            "summary": "Implement Location Farm Business Subtab for Farmowners - Persistance",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/major.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Persistence implementation of entities",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47890",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47890",
+      "key": "SDLC-7528",
+      "fields": {
+        "summary": "Implement Validation rules as per spreadsheet",
+        "customfield_12106": 7.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "45649",
+          "key": "SDLC-6629",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/45649",
+          "fields": {
+            "summary": "Implement Coverages Optional Coverage Subtab - Validations",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10746",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "BA Done",
+              "id": "10746",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/2",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/critical.svg",
+              "name": "High",
+              "id": "2"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Implement Ruby Validation rules as per spreadsheet",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47889",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47889",
+      "key": "SDLC-7527",
+      "fields": {
+        "summary": "Create proxy API foundation",
+        "customfield_12106": 7.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "47346",
+          "key": "SDLC-7284",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/47346",
+          "fields": {
+            "summary": "Refactor Back-end workflow to simplify UI transactions",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Create proxy API foundation & endpoint",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "2d",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 57600
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47888",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47888",
+      "key": "SDLC-7526",
+      "fields": {
+        "summary": "Consolidate models",
+        "customfield_12106": 7.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "47346",
+          "key": "SDLC-7284",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/47346",
+          "fields": {
+            "summary": "Refactor Back-end workflow to simplify UI transactions",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Consolidate models into a single DTO ",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "1d",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 28800
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47887",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47887",
+      "key": "SDLC-7525",
+      "fields": {
+        "summary": "Recreate control flow in BE",
+        "customfield_12106": 7.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "47346",
+          "key": "SDLC-7284",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/47346",
+          "fields": {
+            "summary": "Refactor Back-end workflow to simplify UI transactions",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Recreate control flow in BE, including action consolidation, call dependencies, etc ",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "2d",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 57600
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47870",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47870",
+      "key": "SDLC-7513",
+      "fields": {
+        "summary": "Update Coverages - Optional tab to include 3 additional fields - Persistence",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-6625",
+        "description": "Implement saving of the 3 additional fields entered on the location optional coverages subtab. saves to the database\r\n\r\nAdding 3 additional fields to Coverages - Optional Sub-tab:\r\n1.\tExpanded RC – Select One, No, Yes\r\n2.\tExpanded Ordinance or Law – Excluded, Included\r\n3.\tAuto Increase Limits – 0.0%, 1.0%, 1.5%, 2.0%, Each Additional 0.5% (Option 4)",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "1d 1h 30m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 34200
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47732",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47732",
+      "key": "SDLC-7436",
+      "fields": {
+        "summary": "Implement Service Layer",
+        "customfield_12106": 8.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "44671",
+          "key": "SDLC-6261",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/44671",
+          "fields": {
+            "summary": "Implement persistence for the Additional Interest Tab for Farmowners",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10746",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "BA Done",
+              "id": "10746",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Implement Service Layer for AI tab",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47667",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47667",
+      "key": "SDLC-7406",
+      "fields": {
+        "summary": "Implement Persistence Layer",
+        "customfield_12106": 8.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "44671",
+          "key": "SDLC-6261",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/44671",
+          "fields": {
+            "summary": "Implement persistence for the Additional Interest Tab for Farmowners",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10746",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "BA Done",
+              "id": "10746",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Implement Persistence Layer and account for new fields on additional interest tab, schema modifications may be necessary",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47656",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47656",
+      "key": "SDLC-7399",
+      "fields": {
+        "summary": "Controller for FarmOwner",
+        "customfield_12106": 5.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "46422",
+          "key": "SDLC-6948",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/46422",
+          "fields": {
+            "summary": "UI Design for the farmowners location farm business subtab",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/major.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Simple impl",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47655",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47655",
+      "key": "SDLC-7398",
+      "fields": {
+        "summary": "UI Design and Layout",
+        "customfield_12106": 5.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "46422",
+          "key": "SDLC-6948",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/46422",
+          "fields": {
+            "summary": "UI Design for the farmowners location farm business subtab",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/major.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "new Form",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47651",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47651",
+      "key": "SDLC-7397",
+      "fields": {
+        "summary": "Rewire Submit",
+        "customfield_12106": 3.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "47503",
+          "key": "SDLC-7322",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/47503",
+          "fields": {
+            "summary": "UI Adjustments for new proxy",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "API",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47650",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47650",
+      "key": "SDLC-7396",
+      "fields": {
+        "summary": "Rewire Capacity",
+        "customfield_12106": 3.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "47503",
+          "key": "SDLC-7322",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/47503",
+          "fields": {
+            "summary": "UI Adjustments for new proxy",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "API",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47649",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47649",
+      "key": "SDLC-7395",
+      "fields": {
+        "summary": "Rewire ratebook (Drop down options)",
+        "customfield_12106": 5.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "47503",
+          "key": "SDLC-7322",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/47503",
+          "fields": {
+            "summary": "UI Adjustments for new proxy",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "New API",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47648",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47648",
+      "key": "SDLC-7394",
+      "fields": {
+        "summary": "Rewire Rating, Validation to be with Save",
+        "customfield_12106": 5.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "47503",
+          "key": "SDLC-7322",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/47503",
+          "fields": {
+            "summary": "UI Adjustments for new proxy",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "API",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47647",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47647",
+      "key": "SDLC-7393",
+      "fields": {
+        "summary": "Rewire Scrub",
+        "customfield_12106": 3.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "47503",
+          "key": "SDLC-7322",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/47503",
+          "fields": {
+            "summary": "UI Adjustments for new proxy",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "API",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47646",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47646",
+      "key": "SDLC-7392",
+      "fields": {
+        "summary": "Rewire Persist",
+        "customfield_12106": 3.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "47503",
+          "key": "SDLC-7322",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/47503",
+          "fields": {
+            "summary": "UI Adjustments for new proxy",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "New Api's",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47638",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47638",
+      "key": "SDLC-7390",
+      "fields": {
+        "summary": "Agree on API signatures for all transactions",
+        "customfield_12106": 5.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "47503",
+          "key": "SDLC-7322",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/47503",
+          "fields": {
+            "summary": "UI Adjustments for new proxy",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Combine existing models: NO shape change",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47636",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47636",
+      "key": "SDLC-7389",
+      "fields": {
+        "summary": "Integration with back end",
+        "customfield_12106": 5.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "44669",
+          "key": "SDLC-6259",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/44669",
+          "fields": {
+            "summary": "Implement Farmowners Additional Interest (Page /Tab 7)",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10746",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "BA Done",
+              "id": "10746",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Jiggle, fit and push to ensure e2e mapping and working",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47635",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47635",
+      "key": "SDLC-7388",
+      "fields": {
+        "summary": "Controller to mange Interest CRUD",
+        "customfield_12106": 5.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "44669",
+          "key": "SDLC-6259",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/44669",
+          "fields": {
+            "summary": "Implement Farmowners Additional Interest (Page /Tab 7)",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10746",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "BA Done",
+              "id": "10746",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Add, delete, (edit is implicit)\r\nButtons disabled on readOnly",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47634",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47634",
+      "key": "SDLC-7387",
+      "fields": {
+        "summary": "Design UI template and Accordion Layout",
+        "customfield_12106": 5.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "44669",
+          "key": "SDLC-6259",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/44669",
+          "fields": {
+            "summary": "Implement Farmowners Additional Interest (Page /Tab 7)",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10746",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "BA Done",
+              "id": "10746",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "CRUD functions on template",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47633",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47633",
+      "key": "SDLC-7386",
+      "fields": {
+        "summary": "UI Model for Additional Interests",
+        "customfield_12106": 5.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "44669",
+          "key": "SDLC-6259",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/44669",
+          "fields": {
+            "summary": "Implement Farmowners Additional Interest (Page /Tab 7)",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10746",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "BA Done",
+              "id": "10746",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Confirm with Back end",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47503",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47503",
+      "key": "SDLC-7322",
+      "fields": {
+        "summary": "UI Adjustments for new proxy",
+        "customfield_12106": 21.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-7152",
+        "description": "Simplify UI flow for new proxy layer",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "1h 30m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 5400
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47346",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47346",
+      "key": "SDLC-7284",
+      "fields": {
+        "summary": "Refactor Back-end workflow to simplify UI transactions",
+        "customfield_12106": 21.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-7152",
+        "description": "Items should be single stage:\r\n* Save with rating, validation\r\n* Check and get capacity, persist, with validation\r\n\r\nAcceptance Criteria\r\n* Review the implementation with Martin and if approved story will be closed\r\n  *Application continues to function as before",
+        "assignee": null,
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "2d 1h 30m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 63000
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47317",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47317",
+      "key": "SDLC-7279",
+      "fields": {
+        "summary": "Add rule to business validations to display if the Submit function is available or not. ",
+        "customfield_12106": 14.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-5197",
+        "description": "Moved from SDLC-5200",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "1h 30m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 5400
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47198",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47198",
+      "key": "SDLC-7226",
+      "fields": {
+        "summary": "Update Coverages - Optional tab to include 3 additional fields",
+        "customfield_12106": 4.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-6625",
+        "description": "Adding 3 additional fields to Coverages - Optional Sub-tab:\r\n1.\tExpanded RC – Select One, No, Yes\r\n2.\tExpanded Ordinance or Law – Excluded, Included\r\n3.\tAuto Increase Limits –  [^SDLC-7226 - Extra Optional Fields.xlsx]  [^SDLC-7226 - Extra Optional Fields - Persistence.xlsx] 0.0%, 1.0%, 1.5%, 2.0%, Each Additional 0.5% (Option 4)\r\n\r\n !image-2016-01-07-12-57-56-671.png|thumbnail! ",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "30m",
+          "timeSpent": "3h",
+          "remainingEstimateSeconds": 1800,
+          "timeSpentSeconds": 10800
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "47030",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/47030",
+      "key": "SDLC-7152",
+      "fields": {
+        "summary": "Modifiy endpoints to manage workflow complexity",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/6",
+          "id": "6",
+          "description": "gh.issue.epic.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10807&avatarType=issuetype",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10807
+        },
+        "customfield_10008": null,
+        "description": "Modifiy endpoints to manage workflow complexity",
+        "assignee": null,
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "4d 7h",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 140400
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "46427",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/46427",
+      "key": "SDLC-6951",
+      "fields": {
+        "summary": "Implement Location Farm Business Subtab for Farmowners - Validation Rules",
+        "customfield_12106": 10.5,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-6947",
+        "description": "Basic Validation Rules to be added to demonstrate functionality",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "30m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 1800
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "46425",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/46425",
+      "key": "SDLC-6950",
+      "fields": {
+        "summary": "Implement Location Farm Business Subtab for Farmowners - Persistance",
+        "customfield_12106": 10.5,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-6947",
+        "description": "Implement saving of the fields entered on the location farm business subtab for farmowners",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "30m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 1800
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "46422",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/46422",
+      "key": "SDLC-6948",
+      "fields": {
+        "summary": "UI Design for the farmowners location farm business subtab",
+        "customfield_12106": 10.5,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-6947",
+        "description": "As an agent I want to be able to easily enter the farm business information by location that make up a farm so that I can create a policy quote.\r\n\r\nPlease see mock up for this tab - 3b - FO Screen Mockup - Location - Farm Business Subtab.pdf:  https://focustech.atlassian.net/wiki/display/pd/Farmowners+Project",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "30m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 1800
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "46420",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/46420",
+      "key": "SDLC-6947",
+      "fields": {
+        "summary": "Implement Location Farm Business Subtab for Farmowners",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/6",
+          "id": "6",
+          "description": "gh.issue.epic.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10807&avatarType=issuetype",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10807
+        },
+        "customfield_10008": null,
+        "description": "Implement the ability to add farm business information to each location for farmowners. This deliverable will be to implement the Location Farm Business sub tab for farmowners.",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "3h 45m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 13500
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "46142",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/46142",
+      "key": "SDLC-6811",
+      "fields": {
+        "summary": "Ensure Insured Info etc. etc are all mapped to right view-state",
+        "customfield_12106": 5.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "45645",
+          "key": "SDLC-6626",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/45645",
+          "fields": {
+            "summary": "Implement Coverages Optional Coverage Subtab - UI Interface",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/6",
+              "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/statuses/closed.png",
+              "name": "Closed",
+              "id": "6",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/2",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/critical.svg",
+              "name": "High",
+              "id": "2"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "samples not - insuredDob, coinsuredDob",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "46121",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/46121",
+      "key": "SDLC-6798",
+      "fields": {
+        "summary": "Create validation rules",
+        "customfield_12106": 2.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "45672",
+          "key": "SDLC-6636",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/45672",
+          "fields": {
+            "summary": "Implement Exposure Management Rules in Carrier Admin",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10746",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "BA Done",
+              "id": "10746",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Create validation rules for the following fields:\r\n\r\n* Zip code - \"Property Zip will not rate. Correct or contact underwriting.\"\r\n* Territory - \"We are not currently writing in this Territory\"\r\n* County - \"We are not currently writing in this County\"\r\n\r\nValidation rules use the ValidationLoopupService which query the below tables to determine if the field is valid for the ratebook. Therefore, the following tables must be populated with valid values:\r\n\r\n* Zip code - TIVA_ZIPCODES\r\n* Territory - TIVA_LISTROWS with \"field\" = \"TERRITORY\"\r\n* County - Is this validation unprecedented? I am not seeing any existing functionality to check county within the validation rules, like there is for zip and territory. If so, We can include a check for valid counties directly in the validation rules file, or add valid counties to the tiva_listrows table.",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "46002",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/46002",
+      "key": "SDLC-6741",
+      "fields": {
+        "summary": "Research & Development",
+        "customfield_12106": 7.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "42029",
+          "key": "SDLC-5204",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/42029",
+          "fields": {
+            "summary": "Add Binder Date Field to Database That Will Update When Application Submitted",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10746",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "BA Done",
+              "id": "10746",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/major.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Time-boxed task for Research & Development of this feature request",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "45992",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/45992",
+      "key": "SDLC-6734",
+      "fields": {
+        "summary": "Implement Validation rules as per spreadsheet",
+        "customfield_12106": 10.5,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "45628",
+          "key": "SDLC-6616",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/45628",
+          "fields": {
+            "summary": "Implement Coverages Tab for Farmowners - Validation Rules",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10747",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "Dev In Progress",
+              "id": "10747",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Implement Validation rules as per spreadsheet \"Revised Validations 08 14 2014.xlsx\"\r\n\r\n[~richard.perry] [~cynthia.deviney] [~Robin.Ballas] Please confirm whether the above mentioned spreadsheet is the latest and most accurate",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "45990",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/45990",
+      "key": "SDLC-6732",
+      "fields": {
+        "summary": "Deploy Carrier Admin for BA",
+        "customfield_12106": 2.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "45672",
+          "key": "SDLC-6636",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/45672",
+          "fields": {
+            "summary": "Implement Exposure Management Rules in Carrier Admin",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10746",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "BA Done",
+              "id": "10746",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Deploy Carrier Admin screen to buildb so BA's as Focus can edit the exposure-mgmt-rules.rb file related to farmowners.",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=martin.jamszolik",
+          "name": "martin.jamszolik",
+          "key": "martin.jamszolik",
+          "emailAddress": "Martin.Jamszolik@bipt.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/8e31d4de0386f5f7070823fe78430989?d=mm&s=48",
+            "24x24": "https://secure.gravatar.com/avatar/8e31d4de0386f5f7070823fe78430989?d=mm&s=24",
+            "16x16": "https://secure.gravatar.com/avatar/8e31d4de0386f5f7070823fe78430989?d=mm&s=16",
+            "32x32": "https://secure.gravatar.com/avatar/8e31d4de0386f5f7070823fe78430989?d=mm&s=32"
+          },
+          "displayName": "Martin Jamszolik",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "45986",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/45986",
+      "key": "SDLC-6730",
+      "fields": {
+        "summary": "Modify BE to pass capacity info to FE",
+        "customfield_12106": 14.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/8",
+          "id": "8",
+          "description": "Created by GreenHopper - do not edit or delete. Issue type for a technical task.",
+          "iconUrl": "https://focustech.atlassian.net/images/icons/issuetypes/task_agile.png",
+          "name": "Technical task",
+          "subtask": true
+        },
+        "parent": {
+          "id": "45672",
+          "key": "SDLC-6636",
+          "self": "https://focustech.atlassian.net/rest/api/2/issue/45672",
+          "fields": {
+            "summary": "Implement Exposure Management Rules in Carrier Admin",
+            "status": {
+              "self": "https://focustech.atlassian.net/rest/api/2/status/10746",
+              "description": "This status is managed internally by JIRA Software",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/subtask.gif",
+              "name": "BA Done",
+              "id": "10746",
+              "statusCategory": {
+                "self": "https://focustech.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://focustech.atlassian.net/rest/api/2/priority/5",
+              "iconUrl": "https://focustech.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Not Prioritized",
+              "id": "5"
+            },
+            "issuetype": {
+              "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+              "id": "7",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10815
+            }
+          }
+        },
+        "customfield_10008": null,
+        "description": "Right now, the BE will make a REST call whose response contains data relevant to the front end, but then returns only success or error message to the requester, rendering the important failure reasons lost. \r\n\r\nBE Needs to:\r\n# Pass response data back to FE, so it can show capacity lock failure/success toasts effectively\r\n# Upon failure, update the risk object with exposureerror[message]/field/level, and persist- this cannot be the FE's job.\r\n\r\nBefore the above is implemented, we need to determine if any other LOB's/applications are using the REST OPEN API for exposure management to determine if the change must be pushed in for FO only, or if the exposure mgmt service through the rest open API can be \"fixed\" to include the above functionality for all LOBs.",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {}
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "45672",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/45672",
+      "key": "SDLC-6636",
+      "fields": {
+        "summary": "Implement Exposure Management Rules in Carrier Admin",
+        "customfield_12106": 14.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-4938",
+        "description": "As an agent I want the farmowners application I am entering to check for available capacity and reserve it .\r\n\r\n*Tasks*\r\n# Implement Exposure Management Rules in Carrier Admin.  Refer to requirement questionnaire on the wiki at:  https://focustech.atlassian.net/wiki/x/6YCuAg\r\n# Add a rule in business validation to display the business message when capacity is not available (area is closed for new business)  and cannot be locked - Agreed to display this notification in a toast message instead of a business validation.\r\n\r\n*Technical Task*\r\n# Implement the Capacity API to call Capacity \r\n# Implement Carrier Admin Configuration needed for Exposure Management\r\n# Add rule to business validations to display the capacity not available message\r\n# Add fields to DB TIVA_FORISK for saving exp management\r\n\r\n*Acceptance Criteria*\r\n# Enter a new farmowners application in an area that is open for capacity.  Verify the capacity shows that is reserved (locked)\r\n# Select an applicaiton where capacity is not reserved select the action option to reserve capacity.  Verify capacity is non-reserve (unlocked).\r\n\r\nIF WE CANNOT RESERVE, the UI will display a message, such as ...\r\n\r\n# ZIP CODE - We are currently not writing in this zip code\r\n# TERRITORY - We are currently not writing in this Territory\r\n# COUNTY - We are currently not writing in this County\r\n\r\nExposure Management Rules:\r\n\r\nhttps://focustech.atlassian.net/wiki/display/proj/Farmowners+Point+of+Sale+Requirments?preview=/44990697/46236700/FarmownersExpMgmt_v1.0.docx",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "30m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 1800
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "45649",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/45649",
+      "key": "SDLC-6629",
+      "fields": {
+        "summary": "Implement Coverages Optional Coverage Subtab - Validations",
+        "customfield_12106": 8.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-6625",
+        "description": "Basic Validations Rules will be added to demonstrate functionality",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "4h 30m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 16200
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "45646",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/45646",
+      "key": "SDLC-6627",
+      "fields": {
+        "summary": "Implement Coverages Optional Coverage Subtab - Persistence",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-6625",
+        "description": "Implement saving of the fields entered on the location optional coverages subtab",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "2h",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 7200
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "45645",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/45645",
+      "key": "SDLC-6626",
+      "fields": {
+        "summary": "Implement Coverages Optional Coverage Subtab - UI Interface",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-6625",
+        "description": "Implement user interface design for the location coverages tab.  See 1.5 version of the field spreadsheet.",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "5h 30m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 19800
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "45643",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/45643",
+      "key": "SDLC-6625",
+      "fields": {
+        "summary": "Implement Coverages Optional Coverage Subtab",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/6",
+          "id": "6",
+          "description": "gh.issue.epic.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10807&avatarType=issuetype",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10807
+        },
+        "customfield_10008": null,
+        "description": "1.Implement user interface design for the location optional coverages subtab\r\n2.Implement saving of the fields entered on the location optional coverages subtab\r\n3.Basic Validations Rules will be added to demonstrate functionality\r\n",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "2d 2h 15m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 65700
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "45628",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/45628",
+      "key": "SDLC-6616",
+      "fields": {
+        "summary": "Implement Coverages Tab for Farmowners - Validation Rules",
+        "customfield_12106": 10.5,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-4704",
+        "description": "Basic Validations Rules will be added to demonstrate functionality",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "4h",
+          "timeSpent": "4h 30m",
+          "remainingEstimateSeconds": 14400,
+          "timeSpentSeconds": 16200
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "44672",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/44672",
+      "key": "SDLC-6262",
+      "fields": {
+        "summary": "Implement Validations for the Additional Interests Tab for Farmowners",
+        "customfield_12106": 14.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-6257",
+        "description": "As an agent I want to see the business validations rules display the business validation when required field data is not entered or other eligibility information is not correct for the farmowners application.\r\n*Acceptance Criteria*\r\nValidate all business validations rules are implemented in carrier admin and working correctly on the point of sale user interface that are provided for this issue.",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "45m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 2700
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "44671",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/44671",
+      "key": "SDLC-6261",
+      "fields": {
+        "summary": "Implement persistence for the Additional Interest Tab for Farmowners",
+        "customfield_12106": 14.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-6257",
+        "description": "As an agent I want to be able to answer all the questions on the Additional Interests tab and have it save properly to the application I am creating.\r\n*Task*\r\nEnsure all fields on the Additional Interests tab save to the database and behave as specified in the v1.50 of the Point of Sale Field rules that is located on the wiki. https://focustech.atlassian.net/wiki/x/6YCuAg\r\n*Acceptance Criteria*\r\nFill in all the fields on the Additional Interests tab and verify they properly save to the database.",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "45m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 2700
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "44669",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/44669",
+      "key": "SDLC-6259",
+      "fields": {
+        "summary": "Implement Farmowners Additional Interest (Page /Tab 7)",
+        "customfield_12106": 28.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-6257",
+        "description": "{color:#d04437}This story is for the to implement the User Interface design for the Insured Tab.{color}\r\n\r\n*Description*\r\nAs an agent I want to be able to enter the Additional Interest information on the farmowners application.\r\n\r\nPlease refer to the mock ups \"7 - FO Screen Mockup - Additional Interests Tab.pdf\"  https://focustech.atlassian.net/wiki/x/GIATAQ\r\n\r\n*Acceptance Creiteria*\r\nAccess the Additional Interest tab in Point of Sale application for Farmowners.\r\nUse Existing Q2I as the UX  !screenshot-1.png|thumbnail! ",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=michael.cooper",
+          "name": "michael.cooper",
+          "key": "michael.cooper",
+          "emailAddress": "michael.cooper@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=michael.cooper&avatarId=13901",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=michael.cooper&avatarId=13901",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=michael.cooper&avatarId=13901",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=michael.cooper&avatarId=13901"
+          },
+          "displayName": "Michael Cooper",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "45m",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 2700
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "44660",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/44660",
+      "key": "SDLC-6257",
+      "fields": {
+        "summary": "To Implement Farmowners Additional Interest Tab (Page/Tab 7)",
+        "customfield_12106": null,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/6",
+          "id": "6",
+          "description": "gh.issue.epic.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10807&avatarType=issuetype",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10807
+        },
+        "customfield_10008": null,
+        "description": "Implement the functionality required to deliver the Additional Interest information for the farmowner FO3 form.",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=Robin.Ballas",
+          "name": "Robin.Ballas",
+          "key": "robin.ballas",
+          "emailAddress": "Robin.Ballas@teamfocusins.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=robin.ballas&avatarId=13303",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=robin.ballas&avatarId=13303",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=robin.ballas&avatarId=13303",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=robin.ballas&avatarId=13303"
+          },
+          "displayName": "Robin Ballas",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "1d 4h",
+          "timeSpent": "5h",
+          "remainingEstimateSeconds": 43200,
+          "timeSpentSeconds": 18000
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+      "id": "42029",
+      "self": "https://focustech.atlassian.net/rest/api/2/issue/42029",
+      "key": "SDLC-5204",
+      "fields": {
+        "summary": "Add Binder Date Field to Database That Will Update When Application Submitted",
+        "customfield_12106": 7.0,
+        "issuetype": {
+          "self": "https://focustech.atlassian.net/rest/api/2/issuetype/7",
+          "id": "7",
+          "description": "gh.issue.story.desc",
+          "iconUrl": "https://focustech.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10815&avatarType=issuetype",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10815
+        },
+        "customfield_10008": "SDLC-5197",
+        "description": "When applications are bound-approved or bound-unapproved, we need to store the date and time this occurs.  This date will ultimately need to be printed on the Farmowner application.\r\nIn order to reflect this date and time we need to store this information in the Farmowner Database.\r\n\r\nTasks:\r\nAdd the binder date fields to DB (FO_RISK table) that will update when application is submitted. 3 fields:\r\nBINDEREFFECTIVE\r\nBINDEREXPIRE\r\nBINDERISSUED\r\nBINDERNUMBER\r\n\r\nAcceptance criteria:\r\n1. The effective date of the binder shall be displayed in the \"BINDEREFFECTIVE\" column in TiVA_FORISK.  The column type = \"TIMESTMP\".\r\n2. The expiration date of the binder shall be displayed in the \"BINDEREXPIRE\" column in TiVA_FORISK.  The column type =  \"TIMESTMP\".\r\n3. If the Binder was Issued, it must be reflected in the \"BINDERISSUED\" column,  Column type = \"Decimal\".\r\n4. The binder number shall be displayed in the \"BINDERNUMBER\" column in TiVA_FORISK table.  The column type = VARCHAR.",
+        "assignee": {
+          "self": "https://focustech.atlassian.net/rest/api/2/user?username=daniel.peregolise",
+          "name": "daniel.peregolise",
+          "key": "daniel.peregolise",
+          "emailAddress": "daniel.peregolise@agilethought.com",
+          "avatarUrls": {
+            "48x48": "https://focustech.atlassian.net/secure/useravatar?ownerId=daniel.peregolise&avatarId=14409",
+            "24x24": "https://focustech.atlassian.net/secure/useravatar?size=small&ownerId=daniel.peregolise&avatarId=14409",
+            "16x16": "https://focustech.atlassian.net/secure/useravatar?size=xsmall&ownerId=daniel.peregolise&avatarId=14409",
+            "32x32": "https://focustech.atlassian.net/secure/useravatar?size=medium&ownerId=daniel.peregolise&avatarId=14409"
+          },
+          "displayName": "Daniel Peregolise",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "timetracking": {
+          "remainingEstimate": "0m",
+          "timeSpent": "5h",
+          "remainingEstimateSeconds": 0,
+          "timeSpentSeconds": 18000
+        }
+      }
+    }
+  ]
+}

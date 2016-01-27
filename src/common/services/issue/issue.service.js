@@ -32,7 +32,7 @@ angular.module('agile.services.issue', [
       var defer = $q.defer();
 
       var url = ENVIRONMENT.API_PATH + "search?jql=" + query +
-        "&maxResults=100";
+        "&maxResults=100&fields=timetracking,customfield_12106,description,summary,assignee,issuetype,parent,customfield_10008";
 
       var req = {
         method: 'GET',
@@ -44,7 +44,7 @@ angular.module('agile.services.issue', [
         function(response) {
           var issueList = [];
           _.each(response.data.issues, function(issue) {
-            var issue = new Issue(issue);
+            issue = new Issue(issue);
             if (issue.type != issueTypes.test) {
               issueList.push(issue);
             }
@@ -99,17 +99,17 @@ angular.module('agile.services.issue', [
       });
 
       tasks = tasks.filter(function(e) {
-        return e.flagged == false;
+        return e.flagged === false;
       });
 
       stories = stories.filter(function(e) {
-        return e.flagged == false;
+        return e.flagged === false;
       });
 
       var orderedList = epics.concat(stories).concat(tasks);
 
       return orderedList;
-    }
+    };
 
     return {
       getIssueList: getIssueList

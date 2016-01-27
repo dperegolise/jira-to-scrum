@@ -24,12 +24,15 @@ angular.module('agile.models.issue', [
           new User({displayName: "Not assigned"}) :
           new User(issue.fields.assignee);
       this.icon = issue.fields.issuetype.iconUrl;
-      this.type = issue.fields.issuetype.id
+      this.type = issue.fields.issuetype.id;
       this.children = [];
       this.parentKey =
-        (issue.fields.parent != null) ? issue.fields.parent.key : null;
+        (issue.fields.parent !== undefined) ? issue.fields.parent.key : null;
       this.epicKey = issue.fields["customfield_10008"];
       this.flagged = false;
+      this.remEstimate =
+        (issue.fields.timetracking !== undefined) ?
+          issue.fields.timetracking.remainingEstimate : "N/A";
     };
 
     /**
@@ -39,7 +42,7 @@ angular.module('agile.models.issue', [
     Issue.prototype.addChild = function(child) {
       var vm = this;
       vm.children.push(child);
-    }
+    };
 
     return Issue;
   });

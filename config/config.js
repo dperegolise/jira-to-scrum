@@ -115,7 +115,7 @@ module.exports = {
   working: {
     "ENVIRONMENT": {
       "ENV": "working",
-      "API_PATH": "http://localhost:40364/", // local external endpoint
+      "API_PATH": "https://focustech.atlassian.net/rest/api/2/", // local external endpoint
       "VERSION": 'v ' + pkg.version
     }
   },
