@@ -1,4 +1,4 @@
-<accordion id="home" class="row">
+<div id="home" class="row">
     <h2>JIRA Scrum board</h2>
 
     <p>
@@ -8,7 +8,7 @@
     <p>
         <h4>Query: {{home.query}}</h4>
         <accordion close-others="false">
-            <accordion-group ng-repeat="issue in home.issueList" class="accordion-group acc-epic">
+            <accordion-group ng-repeat="issue in home.issueList" class="accordion-group {{(issue.type == '7') ? 'acc-story' : (issue.type == '6') ? 'acc-epic' : 'acc-task'}}">
                 <accordion-heading>
                     <img src = "{{issue.icon}}">
                     <a href="https://focustech.atlassian.net/browse/{{issue.key}}">{{issue.key}}</a>
@@ -16,12 +16,13 @@
                     <div style="float: right">
                     {{issue.assignee.displayName}} |
                     {{issue.timeEstimate}} |
-                    {{issue.remEstimate}}
+                    {{issue.remEstimate}} |
+                    {{issue.status}}
                     </div>
                 </accordion-heading>
                 <div>
                     <accordion close-others="false" >
-                        <accordion-group ng-repeat="story in issue.children" class="{{(story.type == '7') ? 'acc-story' : 'acc-task'}}" is-open="true">
+                        <accordion-group ng-repeat="story in issue.children" class="{{(story.type == '7') ? 'acc-story' : (story.type == '6') ? 'acc-epic' : 'acc-task'}}" is-open="story.children.length>0">
                             <accordion-heading>
                                 <img src = "{{story.icon}}">
                                 <a href="https://focustech.atlassian.net/browse/{{story.key}}">{{story.key}}</a>
@@ -29,7 +30,8 @@
                                 <div style="float: right">
                                     {{story.assignee.displayName}} |
                                     {{story.timeEstimate}} |
-                                    {{issue.remEstimate}}
+                                    {{story.remEstimate}} |
+                                    {{story.status}}
                                 </div>
                             </accordion-heading>
                             <div ng-repeat="task in story.children" class="issue" is-open="true">
@@ -39,7 +41,8 @@
                                 <div style="float: right">
                                     {{task.assignee.displayName}} |
                                     {{task.timeEstimate}} |
-                                    {{issue.remEstimate}}
+                                    {{task.remEstimate}} |
+                                    {{task.status}}
                                 </div>
                             </div>
                         </accordion-group>

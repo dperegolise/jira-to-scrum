@@ -32,7 +32,7 @@ angular.module('agile.services.issue', [
       var defer = $q.defer();
 
       var url = ENVIRONMENT.API_PATH + "search?jql=" + query +
-        "&maxResults=100&fields=timetracking,customfield_12106,description,summary,assignee,issuetype,parent,customfield_10008";
+        "&maxResults=100&fields=timetracking,customfield_12106,description,summary,assignee,issuetype,parent,customfield_10008,status";
 
       var req = {
         method: 'GET',

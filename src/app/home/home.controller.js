@@ -28,13 +28,6 @@ function HomeController(UserService, IssueService) {
 
   activate();
 
-  /**
-   * fetches intervals
-   */
-  function activate() {
-    vm.query = "labels=Farmowners and labels=Delta";
-  }
-
   vm.doQuery = function() {
     IssueService.getIssueList(replaceAll(vm.query, " ", "+")).then(function(list) {
       vm.issueList = list;
@@ -44,4 +37,9 @@ function HomeController(UserService, IssueService) {
   var replaceAll = function(string, target, replacement) {
     return string.split(target).join(replacement);
   };
+
+  function activate() {
+    vm.query = "labels=Farmowners and labels=Delta";
+  }
+  vm.doQuery();
 }

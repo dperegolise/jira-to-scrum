@@ -31,8 +31,9 @@ angular.module('agile.models.issue', [
       this.epicKey = issue.fields["customfield_10008"];
       this.flagged = false;
       this.remEstimate =
-        (issue.fields.timetracking !== undefined) ?
+        (issue.fields.timetracking.remainingEstimate !== undefined) ?
           issue.fields.timetracking.remainingEstimate : "N/A";
+      this.status = issue.fields.status.name;
     };
 
     /**
