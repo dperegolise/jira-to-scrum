@@ -3,28 +3,27 @@
  *
  * user.service
  */
-angular.module('agile.services.user', [
+angular.module('agile.services.auth', [
   'agile.config.path',
   'agile.models.apiError',
   'agile.models.user'
 ])
-  .service('UserService', function($q, $http, User, ApiError, ENVIRONMENT) {
+  .service('AuthService', function($q, $http, User, ApiError, ENVIRONMENT) {
     'use strict';
 
     /**
-     * @class userService
+     * @class authService
      *
      **/
 
     /**
      *
-     * @param {String} userName
-     * @returns {User}
+     * @returns boolean
      */
-    var getUser = function(userName) {
+    var isAuthenticated = function() {
       var defer = $q.defer();
 
-      var url = ENVIRONMENT.API_2_PATH + "user?username=" + userName;
+      var url = ENVIRONMENT.API_ROOT + "auth/1/session";
 
       var req = {
         method: 'GET',
@@ -34,11 +33,15 @@ angular.module('agile.services.user', [
 
       $http(req).then(
         function(response) {
-          defer.resolve(new User(response.data));
+          defer.resolve(response.status == 200);
         },
         // error
         function(data) {
-          defer.reject(new ApiError(data));
+          if(data.status == 401) {
+            defer.resolve(false);
+          } else {
+            defer.reject(new ApiError(data));
+          }
         }
       );
 
@@ -46,6 +49,6 @@ angular.module('agile.services.user', [
     };
 
     return {
-      getUser: getUser
+      isAuthenticated: isAuthenticated
     };
   });

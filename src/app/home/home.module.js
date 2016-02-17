@@ -10,5 +10,6 @@ angular.module('agile.home', [
   'agile.models.issue',
 
   'agile.services.user',
-  'agile.services.issue'
+  'agile.services.issue',
+  'agile.services.auth'
 ]);

@@ -11,7 +11,7 @@ angular.module('agile.models.apiError', [])
      *
      * @constructor
      */
-    var ApiError = function(data, status, headers, config) {
+    var ApiError = function(data) {
       if (angular.isObject(data)) {
         this.data = null;
         this.extra = null;
@@ -27,7 +27,7 @@ angular.module('agile.models.apiError', [])
 
       } else {
         this.data = data;
-        this.status = status;
+        this.status = data.status;
       }
 
     };

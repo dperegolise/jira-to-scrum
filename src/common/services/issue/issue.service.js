@@ -31,7 +31,7 @@ angular.module('agile.services.issue', [
     var getIssueList = function(query) {
       var defer = $q.defer();
 
-      var url = ENVIRONMENT.API_PATH + "search?jql=" + query +
+      var url = ENVIRONMENT.API_2_PATH + "search?jql=" + query +
         "&maxResults=100&fields=timetracking,customfield_12106,description,summary,assignee,issuetype,parent,customfield_10008,status";
 
       var req = {
@@ -53,8 +53,8 @@ angular.module('agile.services.issue', [
           defer.resolve(orderedList);
         },
         // error
-        function(data, status, headers, config) {
-          defer.reject(new ApiError(data, status, headers, config));
+        function(data) {
+          defer.reject(new ApiError(data));
         }
       );
 
