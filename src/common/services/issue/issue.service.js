@@ -37,6 +37,10 @@ angular.module('agile.services.issue', [
       var req = {
         method: 'GET',
         url: url,
+        headers: {
+          'X-Atlassian-Token': 'nocheck',
+          'Authorization': 'Basic ZGFuaWVsLnBlcmVnb2xpc2VAYWdpbGV0aG91Z2h0LmNvbTpLZWxseWs3Nw=='
+        },
         isArray: false
       };
 

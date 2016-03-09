@@ -18,7 +18,8 @@ angular.module('agile.home')
   }
 );
 
-function HomeController(IssueService, AuthService) {
+function HomeController(IssueService, AuthService, $state, States,
+                        $stateParams) {
   'use strict';
 
   var user = null;
@@ -30,7 +31,8 @@ function HomeController(IssueService, AuthService) {
   activate();
 
   vm.doQuery = function() {
-    IssueService.getIssueList(replaceAll(vm.query, " ", "+")).then(function(list) {
+    IssueService.getIssueList(replaceAll(vm.query, " ",
+      "+")).then(function(list) {
       vm.issueList = list;
     });
   };
@@ -43,10 +45,13 @@ function HomeController(IssueService, AuthService) {
     vm.query = "labels=Farmowners and labels=Delta";
     vm.authenticated = "not set";
 
-    AuthService.isAuthenticated().then(function(isAuthenticated) {
-      vm.authenticated = (isAuthenticated) ? "yes" : "no";
-    });
+    //AuthService.isAuthenticated().then(function(isAuthenticated) {
+    //  if (!isAuthenticated) {
+    //    $state.go(States.home.auth, $stateParams, {reload: true});
+    //  }
+    //});
 
   }
+
   vm.doQuery();
 }

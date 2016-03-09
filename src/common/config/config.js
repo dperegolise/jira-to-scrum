@@ -5,7 +5,8 @@ angular.module('agile.config', [])
 
   .constant('States', {
     home: {
-      default: 'agile.home'
+      default: 'agile.home',
+      auth: 'agile.auth'
     },
     app: {
       default: 'agile'

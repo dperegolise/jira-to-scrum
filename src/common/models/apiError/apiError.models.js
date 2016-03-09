@@ -14,15 +14,12 @@ angular.module('agile.models.apiError', [])
     var ApiError = function(data) {
       if (angular.isObject(data)) {
         this.data = null;
-        this.extra = null;
+        this.statusText = null;
         this.status = 0;
         if (data.data) {
-          this.data = (data.data.additional) ?
-            data.data.additional :
-            data.additional;
-          this.extra = (data.data.message) ? data.data.message : data.message;
-          this.status =
-            (data.data['http-status']) ? Number(data.data['http-status']) : 0;
+          this.data = data.data;
+          this.statusText = data.statusText;
+          this.status = data.status;
         }
 
       } else {
